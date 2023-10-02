@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Causa</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="#" target="_blank">
+                    <img src="../Img/Logo Header.svg" alt="Logo Header">
+                </a>
+                <a href="">
+                    <img src="../Img/Logo Visa.svg" alt="Logo Visa" class="logo-visa">
+                </a>
+
+            </div>
+
+            <div class="right-header">
+                <a href="./Index.html" id="language">ENGLISH</a>
+                <button class="burger" onclick="toggleMenu()"><img src="../Img/Menu Hamburguesa.svg" alt=""></button>
+            </div>
+
+            <div class="nav-container">
+                <nav class="header-nav">
+                    <a href="#">Watch Video</a>
+                    <a href="#features">Features</a>
+                    <a href="#tarjeta">Card</a>
+                    <a href="#about">About Us</a>
+                    <a href="#contacto">Contact</a>
+                    <a href="#learn">Learn</a>
+                    <a href="./Index.html" id="language" class="language">ENGLISH</a>
+                </nav>
+            </div>
+
+        </div>
+
+        <script src="./script.js"></script>
+    </header>
+
+    <!-- Contenido principal -->
+    <div class="ft-container">
+        <div class="form-container">
+            <img src="../Img/bienvenido a la causa visa Movil.svg" alt="" class="bienvenido-movil">
+            <img src="../Img/Welcome English.svg" alt="Bienvenido a la Causa" class="bienvenido-web">
+            <p class="index-p-web">PRE-REGISTER AND START UNSING ALL LA CAUSA BENEFITS:</p>
+            <p class="index-p-movil">PRERREGÍSTRATE PARA DISFRUTAR SUS BENEFICIOS</p>
+            <a href="#form" class="join-movil">Enviar</a>
+            <form class="contact-form" action="process.php" method="POST">
+                <div class="input-group">
+                    <input type="text" id="nombre" name="nombre" required placeholder="+ NAMES">
+                </div>
+                <div class="input-group">
+                    <input type="tel" id="telefono" name="telefono" required placeholder="+ MOBILE PHONE">
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" name="email" required placeholder="+ EMAIL">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="estado" name="estado" required placeholder="+ ESTATE">
+                </div>
+                <button type="submit">Send</button>
+            </form>
+            <div class="download">
+                <p>Coming soon to</p>
+                <div class="links-download">
+                    <a href="https://www.apple.com/mx/app-store/"><img src="../Img/AppStore.svg" alt=""></a>
+                    <a href="https://play.google.com/"><img src="../Img/PlayStore_1.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-image">
+            <img src="../Img/Union.svg" alt="Imagen de la tarjeta">
+        </div>
+
+        <div class="floating-button">
+            <input type="checkbox" id="checkbox">
+            <div class="submenu">
+                <a href="#" class="option4"><img src="../Icons/Blog.svg" alt="">Blog</a>
+                <a href="#" class="option3"><img src="../Icons/Youtube.svg" alt="">Youtube</a>
+                <a href="#" class="option2"><img src="../Icons/Facebook.svg" alt="">Facebook</a>
+                <a href="#" class="option1" id="txt-order"><img src="../Icons/Wpp.svg" alt="">WhatsApp</a>
+            </div>
+            <label for="checkbox" class="checkbox-menu"><img src="../Icons/MenuFloat.svg" alt="Botón Check"></label>
+        </div>
+
+
+
+    </div>
+
+    <div class="footer-div-index">
+        <h1><span class="light-text-index">A JOINT EFFORT WITH</span> CUTTING-EDGE TECHNOLOGY</h1>
+    </div>
+
+
+
+
+    <!-- Sección de Características -->
+    <div class="main-container" id="features">
+        <div class="image-div">
+            <img src="../Img/download it now to enjoy la causa visa™ benefits.svg" alt="Beneficios de La Causa Visa">
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <img src="../Img/Mask group.png" alt="Imagen 1">
+                <h2>DELIVERED TO YOUR DOORSTEP</h2>
+                <p>Get a Digital Card or <span class="bold-txt"> request a Physical Prepaid Debit Card at no cost*
+                    </span> </p>
+            </div>
+
+            <div class="card">
+                <img src="../Img/Mask group (1).png" alt="Imagen 2">
+                <h2>MAKE TRANSFERS FROM YOUR PHONE</h2>
+                <p><span class="bold-txt">Send money to contacts in Mexico</span> and the US from your La Causa account
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="../Img/Mask group (2).png" alt="Imagen 3">
+                <h2>CHOOSE WHATEVER WORKS FOR YOU</h2>
+                <p>Withdraw cash from ATMs, <span class="bold-txt">pay with your physical card at stores or online**
+                    </span></p>
+            </div>
+
+            <div class="card">
+                <img src="../Img/Mask group (3).png" alt="Imagen 4">
+                <h2>DO MORE FROM A SINGLE APP</h2>
+                <p>Pay your utilities or <span class="bold-txt">make mobile top ups. </span> </p>
+            </div>
+        </div>
+        <p class="tyc">
+            *For further info please refer to our <span class="tyc-bold-txt">Terms and Conditions</span>
+        </p>
+    </div>
+
+    <div class="footer-div-caracteristicas">
+        <h1><span class="light-text-caracteristicas">CREATED TO</span> PROVIDE OPPORTUNITIES</h1>
+    </div>
+
+    <!--Seccion Tarjeta-->
+
+    <div class="container-tj-main" id="tarjeta">
+        <div class="tj-info">
+            <img src="../Img/send money to mexico_ with la causa visa.svg" alt="">
+            <p id="ft-p-tj">Send for $1.50** with your bank account balance, debit or credit cards, and even with cash
+                through our partners***.</p>
+            <p id="scnd-p-tj">*Recipient will need to apply for a Sacbé account in Mexico. In Mexico, SACBÉ card
+                accounts are separately sponsored by Sacbé Payments de México, S.A.P.I de C.V. pursuant to a license by
+                Mastercard International. **Apply $1.50 plus 1% currency exchange rate fee. ***Service provided by the
+                Greendot Network, additional charges may apply, for more information please refer to the Cardholder
+                Agreement. Third party logos are not property of the Metropolitan Commercial Bank or Sacbé Payments de
+                México S.A.P.I de C.V.</p>
+        </div>
+
+        <div class="img-tj">
+            <img src="../Img/Card English.svg" alt="">
+        </div>
+    </div>
+
+    <div class="footer-div-tj">
+        <h1><span class="light-text-tj">NO LINES, LA CAUSA IS</span>AVAILABLE 24/7/365</h1>
+    </div>
+
+    <!--Seccion Sobre Nosotros-->
+
+    <div class="nosotros-cont-main" id="about">
+        <div class="nosotros-info">
+            <img src="../Img/created TO MAKE THINGS.svg" alt="">
+            <p>WE JOINED FORCES TO CREATE A FINANCIAL SOLUTION WITH THE VALUES OF CHICANOS POR LA CAUSA AND SACBÉ'S THE
+                CUTTING EDGE TECHNOLOGICAL PLATFORM.</p>
+        </div>
+
+        <div class="img-nosotros">
+            <img src="../Img/IMG Nosotros.svg" alt="">
+        </div>
+    </div>
+    <div class="footer-div-about">
+        <h1><span class="light-text-about">WE ARE HERE</span> FOR YOU</h1>
+    </div>
+
+    <!--Seccion Contacto-->
+
+    <div class="main-contacto" id="contacto">
+        <div class="img-contacto">
+            <img src="../Img/Img Contacto.svg" alt="">
+            <div class="atn-cliente">
+                <img src="../Img/SERVICE.svg" alt="">
+                <img src="../Img/WE HERE.svg" alt="">
+            </div>
+        </div>
+
+        <div class="cards-contacto">
+            <div class="card-contacto">
+                <img src="../Img/PhoneC.svg" alt="">
+                <h2>CALL US</h2>
+                <p>+1 508 999 11 04</p>
+                <p id="scnd-p-contacto">9 AM-9PM EST/365 DAYS</p>
+            </div>
+
+            <div class="card-contacto">
+                <img src="../Img/PhoneC.svg" alt="">
+                <h2>SEND US EMAIL</h2>
+                <p>SUPPORT@LACAUSA.COM</p>
+            </div>
+
+            <div class="card-contacto">
+                <img src="../Img/PhoneC.svg" alt="">
+                <h2>FOLLOW US</h2>
+                <p>DON'T MISS A THING!</p>
+            </div>
+
+            <div class="card-contacto">
+                <img src="../Img/PhoneC.svg" alt="">
+                <h2>WHATSAPP</h2>
+                <p>+1 508 999 11 04</p>
+                <p id="scnd-p-contacto">9 AM-9PM EST/365 DAYS</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-div-contacto">
+        <h1>WE DO THINGS DIFFERENTLY, WE ARE PROGRESS</h1>
+    </div>
+
+    <!--Seccion Aprende-->
+
+    <div class="main-container-faq" id="learn">
+        <div class="title-faq">
+            <img src="../Img/Frequent questions about your LA CAUSA account.svg" alt="">
+        </div>
+        <div class="faq-container">
+            <div class="question">
+                <div class="title-question">
+                    <img src="../Img/Add.svg" alt="">
+                    <h3>WHAT DOCUMENTS DO I NEED TO OPEN A "LA CAUSA" ACCOUNT?</h3>
+                </div>
+                <div class="answer">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ex minus officia, quae vero dolore
+                    veniam numquam tempore sint aliquid recusandae, repudiandae itaque facilis quam laboriosam,
+                    consectetur nam. Quisquam, quidem.
+                </div>
+            </div>
+
+            <div class="question">
+                <div class="title-question">
+                    <img src="../Img/Add.svg" alt="">
+                    <h3>WHAT DO I NEED TO SEND MONEY FROM THE UNITED STATES TO MEXICO?</h3>
+                </div>
+                <div class="answer">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ex minus officia, quae vero dolore
+                    veniam numquam tempore sint aliquid recusandae, repudiandae itaque facilis quam laboriosam,
+                    consectetur nam. Quisquam, quidem.
+                </div>
+            </div>
+
+            <div class="question">
+                <div class="title-question">
+                    <img src="../Img/Add.svg" alt="">
+                    <h3>HOW LONG DOES IT TAKE FOR TRANSFERS TO ARRIVE IN MEXICO?</h3>
+                </div>
+                <div class="answer">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ex minus officia, quae vero dolore
+                    veniam numquam tempore sint aliquid recusandae, repudiandae itaque facilis quam laboriosam,
+                    consectetur nam. Quisquam, quidem.
+                </div>
+            </div>
+
+            <div class="question">
+                <div class="title-question">
+                    <img src="../Img/Add.svg" alt="">
+                    <h3>TO WHICH COUNTRIS CAN I SEND MONEY WITH MY LA CAUSA ACCOUNT?</h3>
+                </div>
+                <div class="answer">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ex minus officia, quae vero dolore
+                    veniam numquam tempore sint aliquid recusandae, repudiandae itaque facilis quam laboriosam,
+                    consectetur nam. Quisquam, quidem.
+                </div>
+            </div>
+
+            <div class="question">
+                <div class="title-question">
+                    <img src="../Img/Add.svg" alt="">
+                    <h3>CAN I RECEIVE TRANSFERS AND PAYMENTS IN MY LA CAUSA ACCOUNT?</h3>
+                </div>
+                <div class="answer">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ex minus officia, quae vero dolore
+                    veniam numquam tempore sint aliquid recusandae, repudiandae itaque facilis quam laboriosam,
+                    consectetur nam. Quisquam, quidem.
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+
+    <!--Seccion Footer-->
+
+    <div class="main-footer">
+        <div class="main-terms">
+            <div class="ft-footer">
+
+                <div class="logo-footer">
+                    <img src="../Img/Logo.svg" alt="">
+                </div>
+
+                <div class="Terms" id="terms">
+                    <h2> Terms of Use</h2>
+                    <p>CPLC Card holder Agreement</p>
+                    <p>Fee Schedule</p>
+                    <p>Cancellation and Refund Policy</p>
+                    <p>Politica de Cancelacion y Reembolsos</p>
+                    <p>Disclaimer and noticies</p>
+                </div>
+
+                <div class="Terms" id="service">
+                    <h2>Customer Service</h2>
+                    <p>FAQs</p>
+                    <p>Contact us</p>
+                    <p>support@lacausa.com</p>
+                    <p>+1 508 999 11 04</p>
+                    <p>9 am - 9 pm EST /365 days</p>
+                </div>
+
+                <div class="Terms" id="us">
+                    <h2>About us</h2>
+                    <p>Who We Are</p>
+                    <p>Facebook</p>
+                    <p>YouTube</p>
+                    <p>3480 Main Highway,</p>
+                    <p>Suite 400</p>
+                    <p>Miami, FL 33133</p>
+                </div>
+            </div>
+
+            <div class="scnd-footer">
+                <nav>
+                    <a href="./Index.html" id="language">ENGLISH</a>
+                </nav>
+                <p>
+                    <span class="bold-text"> BY ACCEPTING OR USING THIS CARD, YOU AGREE TO BE BOUND BY THE
+                        TERMS AND CONDITIONS
+                        CONTAINED IN THIS CARDHOLDER AGREEMENT AND FEE PROGRAM, IF APPLICABLE.
+                    </span> The
+                    Visa® Prepaid Card La Causa is issued by Metropolitan Commercial Bank (FDIC Member) pursuant to a
+                    license from Visa U.S.A, Inc. “Metropolitan Commercial Bank” and “Metropolitan” are registered
+                    trademarks
+                    of
+                    Metropolitan Commercial Bank ©2014.
+                </p>
+
+                <p id="footer-txt-center"> FOR CUSTOMER SERVICE CALL LA CAUSA AT 1-508-999-1104. 9AM -9PM EST /
+                    365 days.</p>
+
+                <p>
+                    <span class="bold-text"> IMPORTANT INFORMATION ABOUT PROCEDURES FOR OPENING A NEW
+                        CARD ACCOUNT:</span> To help the
+                    government fight the financing of terrorism and money laundering activities, federal law requires
+                    that all financial institutions and their third-party service providers obtain, verify, and record
+                    information that identifies each person who opens a Card Account. <span class="bold-text">WHAT THIS
+                        MEANS FOR YOU:</span>
+                    When
+                    you open a Card Account, we will ask for your name, address, date of birth, and other information
+                    that will allow us
+                    to identify you. We may also ask to see your driver's license or other identification documents.
+                </p>
+                <p>
+                    <span class="bold-text">DISCLOSURE FOR PREPAID ACCOUNTS:</span> Your funds will be held or
+                    transferred to Metropolitan Commercial
+                    Bank, an FDIC-insured institution. While there, your funds are insured up to $250,000 by the FDIC in
+                    the event that Metropolitan Commercial Bank fails and if specific deposit insurance requirements are
+                    met and your card is registered. See <span class="bold-text"><a
+                            href="https://www.fdic.gov/deposit/deposits/prepaid_esp.html">fdic.gov/deposit/deposit_prepaid_e_sp.html</a>
+                    </span>
+                    for details. FDIC insurance does not protect your funds in the event that La Causa fails or from
+                    theft or fraud risks.
+                </p>
+                <p>
+                    Once the card is activated, you can deposit funds into your Visa® Prepaid Card La Causa account
+                    (referred to as “value load” or “charge”) at any time using a U.S. debit card, direct deposit, or
+                    through Automated Clearing House (ACH) domiciled payment transfers. You can also load your card with
+                    cash at participating Green Dot reload locations.
+                </p>
+                <p>
+                    Purchases made with your Visa® Prepaid Card La Causa that are not authorized by you may be protected
+                    by Visa's® Zero Liability Policy (For more details, please see the <span class="bold-text"> Visa®
+                        Prepaid Card La Causa Cardholder Agreement </span>). This means you are
+                    not responsible for any unauthorized purchases, as long as you notify us immediately. Visa’s Zero
+                    Liability Policy does not apply to ATM transactions outside the Visa® and PLUS networks or to
+                    transactions made with a PIN that is not processed by Visa®. Subject to updates from Visa®, certain
+                    limitations may apply. See your Visa® Prepaid Card La Causa Agreement for more details.
+                </p>
+                <p>
+                    Note: This website is only intended for review and customer service for residents in the United
+                    States. The Spanish translation of this website is for the convenience of our customers.
+                    Applications, contracts, documents, and any other material related to the products or services of La
+                    Causa Payments Inc. promoted on this page will be published in English. However, all Spanish
+                    versions of these materials are secondary, and translations may exist. If there is any discrepancy
+                    between the content of a translated page and the content of the same page in English, the English
+                    version will prevail.
+                </p>
+                <p>
+                    <span class="bold-text"> ©2023© Copyright LA CAUSA</span>
+                </p>
+
+
+            </div>
+
+            <div class="thrd-footer">
+                <img src="../Img/Mano-Ce-alphal 3.svg" alt="">
+                <img src="../Img/Prueba/MADE POSSIBLE BY.svg" alt="">
+                <img src="../Img/Prueba/Group.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
